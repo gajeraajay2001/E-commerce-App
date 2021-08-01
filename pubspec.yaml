@@ -1,0 +1,147 @@
+name: router_ecommerce
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - asset/images/flogo.png
+    - asset/images/tv.png
+    - asset/images/fridge.png
+    - asset/images/trimmer.png
+    - asset/images/home1.png
+    - asset/images/home2.png
+    - asset/images/home3.png
+    - asset/images/home4.png
+    - asset/images/home5.png
+    - asset/images/home6.png
+    - asset/images/home7.png
+    - asset/images/home8.png
+    - asset/images/home9.png
+    - asset/images/f1.png
+    - asset/images/ac1.png
+    - asset/images/ac2.png
+    - asset/images/ac3.png
+    - asset/images/ear1.png
+    - asset/images/ear2.png
+    - asset/images/ear3.png
+    - asset/images/ear4.png
+    - asset/images/iphone1.png
+    - asset/images/iphone2.png
+    - asset/images/printer1.png
+    - asset/images/printer2.png
+    - asset/images/tv2.png
+    - asset/images/s1.png
+    - asset/images/s2.png
+    - asset/images/s3.png
+    - asset/images/s4.png
+    - asset/images/s5.png
+    - asset/images/s6.png
+    - asset/images/s7.png
+    - asset/images/s8.png
+    - asset/images/s9.png
+    - asset/images/t2.png
+    - asset/images/t3.png
+    - asset/images/t4.png
+    - asset/images/t5.png
+    - asset/images/t6.png
+    - asset/images/lap1.png
+    - asset/images/lap2.png
+    - asset/images/lap3.png
+    - asset/images/lap4.png
+    - asset/images/lap5.png
+    - asset/images/lap6.png
+    - asset/images/lap7.png
+    - asset/images/lap8.png
+    - asset/images/lap9.png
+    - asset/images/lap10.png
+    - asset/images/p1.png
+    - asset/images/p2.png
+    - asset/images/p3.png
+    - asset/images/p5.png
+    - asset/images/p6.png
+    - asset/images/p7.png
+    - asset/images/p8.png
+    - asset/images/p10.png
+    - asset/images/p11.png
+    - asset/images/p12.png
+    - asset/images/p13.png
+    - asset/images/p14.png
+    - asset/images/p15.png
+    - asset/images/done.png
+    - asset/images/ok.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: ff
+      fonts:
+        - asset: asset/font/ff1.ttf
+        - asset: asset/font/ff2.ttf
+          style: italic
+
+    - family: ff3
+      fonts:
+        - asset: asset/font/ff3.ttf
+        - asset: asset/font/ff4.ttf
+          style: italic
+
+
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
